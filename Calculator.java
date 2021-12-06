@@ -2,7 +2,7 @@ package com.company.calculator;
 
 import java.util.Scanner;
 
-public class calculator {
+public class Calculator {
     static void plus() {
         Scanner scan = new Scanner(System.in);
         int number, result = 0, i = 1;
