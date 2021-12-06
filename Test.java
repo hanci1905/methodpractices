@@ -1,23 +1,27 @@
-/*package com.company;
+package com.company;
 
-import java.util.Scanner;
-
-static void class Pattern {
-    static int pattern(int N) {
-        int flag = N;
-        if(flag>0)
-        int N = down ? flag - 5 : flag + 5;
-
-        return flag> pattern(N);
+public class Test
+{
+    public Test()
+    {
+        System.out.printf("1");
+        new Test(10);
+        System.out.printf("5");
+    }
+    public Test(int temp)
+    {
+        System.out.printf("2");
+        new Test(10, 20);
+        System.out.printf("4");
+    }
+    public Test(int data, int temp)
+    {
+        System.out.printf("3");
 
     }
 
-
-    public static void main(String[] args) {
-        System.out.println("enter num");
-        Scanner input = new Scanner(System.in);
-        int n = input.nextInt();
-        System.out.println(pattern(n));
+    public static void main(String[] args)
+    {
+        Test obj = new Test();
     }
 }
-*/

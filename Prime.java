@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class AdvancedCalculator {
+public class Prime {
     static boolean isPrime(int n,int i) {
         // Base cases
         if (n <= 2)
@@ -25,7 +25,7 @@ public class AdvancedCalculator {
         if (isPrime(n, 2))
             System.out.println(n + " sayisi asaldir");
         else
-            System.out.println(n + "sayisi asal degildir");
+            System.out.println(n + " sayisi asal degildir");
 
     }
 }
